@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Card</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css" integrity="sha256-46r060N2LrChLLb5zowXQ72/iKKNiw/lAmygmHExk/o=" crossorigin="anonymous" />
+</head>
+<body>
+    <div class="background"></div>
+    <div class="product-card">
+        <div class="left-column">
+            <img src="./images/winter.png">
+        </div>
+        <div class="right-column">
+            <div class="product-name">
+                <h1>WINTER'S ARE COMING</h1>
+                <p>THANK'S GIVING ALSO</p>
+            </div>
+            <div class="description">
+                <input type="text" class="storage" placeholder=" ->Make a Wish here<-"/>
+                <p class="text">Let's find out</p>
+            </div>
+            <input class="btn" type="button" value="YOUR WISH"onclick="document.querySelector('.storage').value = ''" />
+        </div>
+    </div>
+
+
+
+    <script src="./app.js"></script>
+</body>
+</html>
